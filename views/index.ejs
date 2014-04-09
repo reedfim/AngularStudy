@@ -28,7 +28,7 @@
     <form ng-controller="SomeController" ng-submit="requestFunding()">
         <input type="text" ng-model="funding.startingEstimate"/>
         권장 자본금 = {{ needs }}
-
+        <span>{{ testTitle | titleCase }}</span>
         <button type="submit">submit</button>
     </form>
 
