@@ -28,3 +28,6 @@ node_modules
 ##IntelliJ Project
 .idea
 *.iml
+
+##bower
+bower_components

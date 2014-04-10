@@ -1,0 +1,34 @@
+[
+    {
+    "id" : 0,
+    "sender" : "test1@test.com",
+    "subject" : "오랜만이군, 잘지냈어?",
+    "date" : "2014년 4월 10일, 12:32:00",
+    "recipients" : ["greg@somcompany.com"],
+    "message" : "야, 우리 언제 점심이나 같이 먹으면서 밀린 이야기나 하지 안으련?"
+    },
+    {
+    "id" : 1,
+    "sender" : "test2@test.com",
+    "subject" : "이제 그만해",
+    "date" : "2014년 4월 10일, 14:32:00",
+    "recipients" : ["greg2@somcompany.com"],
+    "message" : "그만하자"
+    },
+    {
+    "id" : 2,
+    "sender" : "test3@test.com",
+    "subject" : "그래 그래",
+    "date" : "2014년 4월 10일, 16:32:00",
+    "recipients" : ["greg3@somcompany.com"],
+    "message" : "웃고 넘어가자"
+    },
+    {
+    "id" : 3,
+    "sender" : "test4@test.com",
+    "subject" : "다시 해보지 않으련>?",
+    "date" : "2014년 4월 10일, 18:32:00",
+    "recipients" : ["greg4@somcompany.com"],
+    "message" : "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ"
+    }
+]

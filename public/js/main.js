@@ -18,6 +18,14 @@ utility.filter('titleCase', function(){
     return titleCaseFilter;
 })
 
+myAppModule.directive('ngbkFocus', function(){
+    return {
+        link : function(scope, element, attrs, controller){
+            element[0].focus();
+        }
+    }
+})
+
 myAppModule.factory('Items', function(){
     var items = [
         {

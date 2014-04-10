@@ -26,7 +26,7 @@
         </ul>
     </div>
     <form ng-controller="SomeController" ng-submit="requestFunding()">
-        <input type="text" ng-model="funding.startingEstimate"/>
+        <input type="text" ng-model="funding.startingEstimate" ngbk-focus />
         권장 자본금 = {{ needs }}
         <span>{{ testTitle | titleCase }}</span>
         <button type="submit">submit</button>
@@ -48,6 +48,7 @@
         <button ng-click="showError()">에러 시연하기</button>
         <button ng-click="showWarning()">경고 시연하기</button>
     </div>
+
 
 </body>
 </html>
